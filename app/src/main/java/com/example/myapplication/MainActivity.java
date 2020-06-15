@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    //commented
     public void add(View view) {
         thread.start();
     }

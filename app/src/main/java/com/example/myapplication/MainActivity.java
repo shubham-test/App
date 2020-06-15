@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void add(View view) {
+        System.out.println("this is message");
         thread.start();
     }
 }

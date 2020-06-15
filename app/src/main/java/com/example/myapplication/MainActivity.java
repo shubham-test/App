@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
          thread = new Thread(new Runnable() {
             @Override
             public void run() {
-                mobileArray.add("subham4");
+                mobileArray.add("subam4");
                 adapter.notifyDataSetChanged();
             }
         });
